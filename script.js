@@ -9,7 +9,7 @@ const name = nameInput.value.trim();
 const age = parseInt(ageInput.value.trim());
 
 if (name === '' || isNaN(age)) {
-	alert('Please enter valid details.');
+	alert('Please enter valid details');
 	return;
 }
 
